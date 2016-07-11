@@ -1,2 +1,5 @@
-class Comment < ApplicationRecord
+class Comment < ActiveRecord::Base
+  validates :body, presence: true
+  validates :author, presence: true
+  belongs_to :post
 end

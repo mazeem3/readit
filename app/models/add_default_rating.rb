@@ -1,0 +1,2 @@
+class AddDefaultvote < ApplicationRecord
+end

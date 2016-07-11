@@ -5,11 +5,11 @@ one:
   author: MyString
   url: MyString
   photo_url: MyString
-  rating: 1
+  vote: 1
 
 two:
   title: MyString
   author: MyString
   url: MyString
   photo_url: MyString
-  rating: 1
+  vote: 1

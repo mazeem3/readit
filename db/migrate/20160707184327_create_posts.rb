@@ -5,7 +5,7 @@ class CreatePosts < ActiveRecord::Migration[5.0]
       t.string :author
       t.string :url
       t.string :photo_url
-      t.integer :rating
+      t.integer :vote
 
       t.timestamps
     end
