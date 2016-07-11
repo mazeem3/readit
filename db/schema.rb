@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 20160709021444) do
     t.string   "author"
     t.string   "url"
     t.string   "photo_url"
-    t.integer  "vote"
+    t.integer  "rating"
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
     t.integer  "vote",       default: 0
